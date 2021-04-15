@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">  
+    <head>
+        <!--Meta Charset-->
+        <meta charset="UTF-8" />
+        <!--Meta View Responsive--> 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!--Meta Description-->
+        <meta name="author" content="KNT-Intelligent Connection">
+	    <meta name="description" content="Simple, digital agency">
+	    <meta name="keywords" content="parallax,javascript,jquery,zepto,plugin">
+
+        <!--Styles-->
+	    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+        <!-- Favicon -->
+	    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+	    <link rel="shortcut icon" href="ico/favicon.png" type="image/png">
+
+        <title>Ingenia</title>
+
+        <script src="js/parallax.min.js"></script>
+        <script src="js/parallax.js"></script>
+    </head>
+    <body>
+        <div id="container" class="wrapper">
+            <ul id="scene" class="scene unselectable"
+            data-friction-x="0.1"
+            data-friction-y="0.1"
+            data-scalar-x="25"
+            data-scalar-y="15">
+            <li class="layer" data-depth="0.00"></li>
+            <li class="layer" data-depth="0.10"><div class="background"></div></li>
+            <li class="layer" data-depth="0.15">
+                <ul class="rope depth-10">
+                    <li class="hanger position-2">
+                        <div class="board cloud-2 swing-1" ></div>
+                    </li>
+                    <li class="hanger position-4">
+                        <div class="board cloud-1 swing-3" ></div>
+                    </li>
+                    <li class="hanger position-8">
+                        <div class="board birds swing-5"></div>
+                    </li>
+                </ul>
+            </li>
+            <li class="layer" data-depth="0.30">
+                <ul class="rope depth-30">
+                    <li class="hanger position-1">
+                        <div class="board cloud-1 swing-3"></div>  
+                    </li>
+                    <li class="hanger position-5">
+                        <div class="board cloud-4 swing-1"></div>
+                    </li> 
+                </ul>
+            </li>
+            <li class="layer" data-depth="0.30"><div class="wave paint depth-30"></div></li>
+            <li class="layer" data-depth="0.40"><div class="wave plain depth-40"></div></li>
+            <li class="layer" data-depth="0.50"><div class="wave paint depth-50"></div></li>
+            <li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
+            <li class="layer" data-depth="0.60">
+                <ul class="rope depth-60">
+                    <li class="hanger position-3">
+                        <div class="board birds swing-5"></div>
+                    </li>
+                   <li class="hanger position-6">
+                        <div class="board cloud-2 swing-2"></div>
+                    </li>
+                    <li class="hanger position-8">
+                        <div class="board cloud-3 swing-4"></div>
+                    </li>
+                </ul>
+            </li>
+            <li class="layer" data-depth="0.60"><div class="wave plain depth-60"></div></li>
+            <li class="layer" data-depth="0.80"><div class="wave plain depth-80"></div></li>
+            <li class="layer" data-depth="1.00"><div class="wave paint depth-100"></div></li>
+        </ul>
+        <!--Botón 1-->
+        <section id="about1" class="wrapper about hide accelerate">
+            <div class="cell accelerate">
+                <div class="cables center accelerate">
+                    <div class="panel accelerate">
+                        <header>
+                            <h1>QUIENES SOMOS</h1>
+                        </header>
+                        <p>Hacemos que tu empresa brille en internet
+                        Hoy en día tener un departamento de mercadotecnia es vital para cualquier empresa, 
+                        es por ello que ponemos nuestros servicios a tu disposición.</p>
+                        <ul class="links">
+                            <li><a class="download" href="nosotros.html">1</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Botón2-->
+        <section id="about2" class="wrapper about hide accelerate">
+            <div class="cell accelerate">
+                <div class="cables center accelerate">
+                    <div class="panel accelerate">
+                        <header>
+                            <h1>PORTAFOLIO</h1>
+                        </header>
+                        <img src="img/fondonoche.jpg" width="60" height="90">
+                        <img src="img/fondo12.jpg" width="60" height="50">
+                        <ul class="links">
+                            <li><a class="download" href="#"></a>2</a></li>
+                            <li><a class="github" target="_blank" href="#">2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--Botón del centro-->
+            <section id="about" class="wrapper about hide accelerate">
+                <div class="cell accelerate">
+                    <div class="cables center accelerate">
+                        <div class="panel accelerate">
+                            <header>
+                                <h1>SERVICIOS</h1>
+                            </header>
+                            <p>CONTENIDO</p>
+                            <ul class="links">
+                                <li><a class="download" href="#">Centro</a></li>
+                                <li><a class="github" target="_blank" href="#">Centro</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--Botón3-->
+        <section id="about3" class="wrapper about hide accelerate">
+            <div class="cell accelerate">
+                <div class="cables center accelerate">
+                    <div class="panel accelerate">
+                        <header>
+                            <h1>CONTACTO</h1>
+                        </header>
+                        <p>CONTENIDO</p>
+                        <ul class="links">
+                            <li><a class="download" href="#">3</a></li>
+                            <li><a class="github" target="_blank" href="#">3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Botón4-->
+        <section id="about4" class="wrapper about hide accelerate">
+            <div class="cell accelerate">
+                <div class="cables center accelerate">
+                    <div class="panel accelerate">
+                        <header>
+                            <h1>Botón 4</h1>
+                        </header>
+                        <p>CONTENIDO</p>
+                        <ul class="links">
+                            <li><a class="download" href="#">4</a></li>
+                            <li><a class="github" target="_blank" href="#">4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--Botón del centro-->
+            <button id="toggle" class="toggle i">
+                <div class="cross">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                </div>
+            </button>
+            <!--Botón1-->
+            <button id="toggle1" class="toggle1 i">
+                <div class="cross1">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                </div>
+            </button>
+            <!--Botón2-->
+            <button id="toggle2" class="toggle2 i">
+                <div class="cross2">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                </div>
+            </button>
+            <!--Botón3-->
+            <button id="toggle3" class="toggle3 i">
+                <div class="cross3">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                </div>
+            </button>
+            <!--Botón4-->
+            <button id="toggle4" class="toggle4 i">
+                <div class="cross4">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                </div>
+            </button>
+            
+            <footer>
+                <div class="fb-like" data-href="#" data-width="400" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="#" data-text="#">Tweet</a>
+            </footer>
+        </div>
+        <!-- Scripts -->
+	<script src="js/libraries.min.js"></script>
+	<script src="js/jquery.parallax.js"></script>
+	<script>
+
+	// jQuery Selections
+	var $html = $('html'),
+			$container = $('#container'),
+			$prompt = $('#prompt'),
+			$toggle = $('#toggle'),
+            $toggle1 = $('#toggle1'),
+            $toggle2 = $('#toggle2'),
+            $toggle3 = $('#toggle3'),
+            $toggle4 = $('#toggle4'),
+			$about = $('#about'),
+            $about1 = $('#about1'),
+            $about2 = $('#about2'),
+            $about3 = $('#about3'),
+            $about4 = $('#about4'),
+			$scene = $('#scene');
+
+	// Hide browser menu.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+
+	// Setup FastClick.
+	FastClick.attach(document.body);
+
+	// Add touch functionality.
+	if (Hammer.HAS_TOUCHEVENTS) {
+		$container.hammer({drag_lock_to_axis: true});
+		_.tap($html, 'a,button,[data-tap]');
+	}
+
+	// Add touch or mouse class to html element.
+	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+	// Resize handler.
+	(resize = function() {
+		$scene[0].style.width = window.innerWidth + 'px';
+		$scene[0].style.height = window.innerHeight + 'px';
+		if (!$prompt.hasClass('hide')) {
+			if (window.innerWidth < 600) {
+				$toggle.addClass('hide');
+			} else {
+				$toggle.removeClass('hide');
+			}
+		}
+	})();
+
+	// Attach window listeners.
+	window.onresize = _.debounce(resize, 200);
+	window.onscroll = _.debounce(resize, 200);
+
+    function showDetails() {
+		$about.removeClass('hide');
+		$toggle.removeClass('i');
+	}
+
+	function hideDetails() {
+		$about.addClass('hide');
+		$toggle.addClass('i');
+	} 
+
+	function showDetails1() {
+		$about1.removeClass('hide');
+		$toggle1.removeClass('i');
+	}
+
+	function hideDetails1() {
+		$about1.addClass('hide');
+		$toggle1.addClass('i');
+	}
+
+    function showDetails2() {
+		$about2.removeClass('hide');
+		$toggle2.removeClass('i');
+	}
+
+	function hideDetails2() {
+		$about2.addClass('hide');
+		$toggle2.addClass('i');
+	}
+
+    function showDetails3() {
+		$about3.removeClass('hide');
+		$toggle3.removeClass('i');
+	}
+
+	function hideDetails3() {
+		$about3.addClass('hide');
+		$toggle3.addClass('i');
+	}
+
+    function showDetails4() {
+		$about4.removeClass('hide');
+		$toggle4.removeClass('i');
+	}
+
+	function hideDetails4() {
+		$about4.addClass('hide');
+		$toggle4.addClass('i');
+	}
+
+	// Listen for toggle click event.
+	$toggle.on('click', function(event) {
+		$toggle.hasClass('i') ? showDetails() : hideDetails();
+	});
+
+    $toggle1.on('click', function(event) {
+		$toggle1.hasClass('i') ? showDetails1() : hideDetails1();
+	});
+
+    $toggle2.on('click', function(event) {
+		$toggle2.hasClass('i') ? showDetails2() : hideDetails2();
+	});
+
+    $toggle3.on('click', function(event) {
+		$toggle3.hasClass('i') ? showDetails3() : hideDetails3();
+	});
+
+    $toggle4.on('click', function(event) {
+		$toggle4.hasClass('i') ? showDetails4() : hideDetails4();
+	});
+
+	// Pretty simple huh?
+	$scene.parallax();
+
+	// Check for orientation support.
+	setTimeout(function() {
+		if ($scene.data('mode') === 'cursor') {
+			$prompt.removeClass('hide');
+			if (window.innerWidth < 600) $toggle.addClass('hide');
+			$prompt.on('click', function(event) {
+				$prompt.addClass('hide');
+				if (window.innerWidth < 600) {
+					setTimeout(function() {
+						$toggle.removeClass('hide');
+					},1200);
+				}
+			});
+		}
+	},1000);
+
+	// Twitter stuff.
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+	// Facebook stuff.
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=709933052350821";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+    </body>
+</html>
